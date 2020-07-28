@@ -1,11 +1,10 @@
-# #100DaysOfCode diario - ronda 1 - [ponga su nombre aquí]
+# #100DaysOfCode diario - ronda 1 - ["Nadir"]
 
-El diario de mi reto #100DaysOfCode. Empecé el [17 de julio, lunes, 2017]
+El diario de mi reto #100DaysOfCode. Empecé el [27 de julio, lunes, 2020]
 
 ## Registro
 
 ### R1D1
 
-Empecé una aplicación de clima. Trabajé en el diseño gráfico de la aplicación. El API de OpenWeather fue una prueba http://www.example.com.
-
+Empezando con javascript
 ### R1D2
