@@ -73,6 +73,44 @@ El bloque de la torre se representa como *
     // build here
         
   }
-*/
 
-String.length
+
+
+  Debés crear una función llamada `oneProperty` 
+  que reciba un arreglo de objetos como parámetro y un string. Deberá retornar un nuevo arreglo de objetos, 
+  teniendo como parámetro la propiedad que fue pasada como string.
+   Ejemplo: var arreglo = [ { name: “lucas”, edad: 20 }, { name: “santi”, edad: 22 } ] oneProperty(arreglo, “edad”) 
+  debe retornar [ { edad: 20 }, { edad: 22 } ] oneProperty(arreglo, “name”) debe retornar [ { name: “lucas”}, { name: “santi” } ]
+
+
+
+function oneProperty (array, str) {
+  this.array=array;
+  this.str=str
+}
+  
+
+var array = [ { name: 'lucas', 
+                edad: 20 }, 
+               { name: 'santi',
+                  edad: 22 } ];
+
+                 
+Sumatoria
+debés crear una función llamada `sumattion` que reciba un número como parámetro y que devuelva la sumatoria de todos sus números anteriores,
+ incluso ese mismo. Ejemplo: sumattion(3) debe retornar 6 por que hace (1 +2 +3) sumattion(8) debe retornar 36
+
+
+
+*/function sumattion(num) {
+   var i = 1;
+   while (i<= num) {
+     console.log(i + num);
+     i++;
+     
+   }
+  
+
+
+}
+}
