@@ -102,15 +102,64 @@ debés crear una función llamada `sumattion` que reciba un número como paráme
 
 
 
-*/function sumattion(num) {
-   var i = 1;
-   while (i<= num) {
-     console.log(i + num);
-     i++;
-     
-   }
+
   
-
-
+function sumattion(num) {
+  var i = 1;
+  while (i<= num) {
+    console.log(i + num);
+    i++;
+    
+  };
 }
+
+
+Caracter del medio
+Debés crear una función llamada `middleCharacter` 
+que reciba un `string` por parámetro y devuelva sus caracteres del medio. 
+Ejemplo: middleCharacter(“plataforma5”) debe retornar “f”middleCharacter (“hola”) 
+debe retornar “ol”middleCharacter (“cosas”) debe retornar “s”
+
+
+
+function middleCharacter(str) {
+  for(var i=0; i<= str.length; i++){
+        var string = str[i] 
+      
+          console.log(string.toChart(i))}
+  
+    
+    
+  };
+  
+  function removeChar(str){
+    //You got this!
+     
+         str.substring(1, str.length-1)
+     
+      
+   };
+   
+   function nuevoArreglo(num) {
+     for (let i = 0; i <= num; i++) {
+       var nuevoArr = num[i];
+       
+     }
+   }
+
+   
+
+   function nuevoarreglo(num){
+     var array=[] 
+     array.push(num * 1)
+   } console.log(array);
+   */
+
+   function digitize(n) {
+  //code here
+    for (var i = 0; i < n.length; i++) {
+       var array = array.push([i]);
+      
+    }
+    
 }

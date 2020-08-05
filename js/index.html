@@ -4,14 +4,48 @@
 <head>
 	<meta charset="utf-8">
 	<title>Hola mundo</title>
-	<script type="text/javascript" src="../js/practica.js"></script>
 </head>
 
 <body>
 
 	<h1>Curso java script</h1>
-	<p>nuestro primer script</p>
+	<p>nuestro primer script</p><br><br>
 
+
+	<button data-color="red">Boton 1</button>
+	<button data-color="green">Boton 2</button>
+	<button data-color="blue">Boton 3</button>
+	<button data-color="yellow">Boton 4</button>
+	<button data-color="pink">Boton 5</button>
+	<button>Boton 6</button>
+	
+	<script>
+		const boton = document.querySelectorAll
+			('button');
+
+		boton.forEach(function (item) {
+
+			item.addEventListener('click', function
+			 () {
+				item.style.backgroundColor = 
+				item.dataset.color || 'purple'; //asignacion por condicional
+			});
+		})
+
+
+
+		/*boton.onclick= function() {
+			alert('Click');
+		}
+		boton.addEventListener('click', function () {
+			alert('Click 1');
+
+		});
+		boton.addEventListener('click', function () {
+			alert('Click 2');
+
+		});	*/
+	</script>
 
 
 
