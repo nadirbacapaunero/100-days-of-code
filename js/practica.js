@@ -153,7 +153,7 @@ function middleCharacter(str) {
      var array=[] 
      array.push(num * 1)
    } console.log(array);
-   */
+   
 
    function digitize(n) {
   //code here
@@ -163,3 +163,89 @@ function middleCharacter(str) {
     }
     
 }
+1. Loop de pares
+Debés crear una función llamada loopDePares que reciba como parámetro un número y haga un loop de 0 a 100 mostrando en la consola cada número del loop. 
+En caso de que el número de la iteración sumado con el número pasado por parámetro, sea par, mostrá en la consola “El número x es par”.
+
+function loopDePares (num){
+  for (var i = 1; i <= 100; i++) {
+    if((num + i )% 2 === 0)
+    console.log("El numero " +i+ " es par");
+    
+  }
+
+};
+2. Loop de impares con palabra
+Debés crear una función llamada loopDeImpares que reciba como parámetro un número y una palabra y haga un loop de 0 a 100 mostrando en la consola cada número del loop. 
+Ahora, modificar el código para que, en caso de que ese número sumado con el número pasado por parámetro sea impar, muestre en la consola la palabra pasada por parámetro.
+
+function loopDeImpares (num, str){
+  for (var i = 1; i <= 100; i++) {
+    if( (i + num) % 2 === 0) {
+    console.log("El numero " +i+ str);
+}else console.log(i)
+    
+  }
+
+};
+
+3. Sumatoria
+	Debés crear una función llamada `sumattion` que reciba un número como parámetro y que devuelva la sumatoria de todos sus números anteriores, incluso ese mismo.
+
+Ejemplo: 
+sumattion(3) debe retornar 6 por que hace (1 +2 +3)
+sumattion(8) debe retornar 36
+
+ 
+function sumattion(num) {
+  var sum = 0;
+    for (var i = 1; i <= num; i++) {
+       sum = sum + i
+if(i === num){
+      
+      console.log(sum);}
+    
+      
+    }
+    
+  };
+
+
+  4. Nuevo Arreglo
+
+Debés crear una función llamada `nuevoArreglo` que 
+reciba un número como parámetro y que devuelva un nuevo arreglo con tantos elementos como el número que le hayas pasado.
+
+Ejemplo: 
+nuevoArreglo(5) debe retornar [1,2,3,4,5]
+nuevoArreglo(10) debe retornar [1,2,3,4,5,6,7,8,9,10]
+
+
+
+  
+ function nuevoArreglo(num) {
+  var array=[];
+for(var i= 1; i<= num; i++){
+    array.push(i)
+} console.log(array);
+}
+
+
+5. Similar String.split()
+Debés crear una función llamada `split` que reciba un `string` y simule el comportamiento de la función original Si no sabés cómo funciona, Google puede ayudarte..
+
+Importante: No podés usar el String.split()
+
+Ejemplo: 
+split(“hola”) debe retornar [“h”,”o”,”l”,”a”]
+split(“chau”) debe retornar [“c”,”h”,”a”,”u”]
+
+function split(str) {
+  var nuevoStr=[]
+    for (var i = 0; i < str.length; i++) {
+         nuevoStr.push(''+str[i]+'');
+      
+    }console.log(nuevoStr)
+  }
+  */
+ 
