@@ -28,3 +28,21 @@ if(elemento >=nombres.length){
 lenguajes.forEach((elemento)=>{
     document.write("<li>" +elemento+"</li>")
 });
+// BUQUEDA EN UN ARRAY  
+var lenguaje=["PHP", "JS", "Go", "JAVA"]
+
+ //var busqueda= lenguajes.findIndex(lenguaje => lenguaje == "JS");
+
+console.log(busqueda);
+
+//SOME para encontrar valor, para saber si estan
+
+var precios= [10, 20, 80, 50, 12];
+
+var busqueda= precios.some(precio => 50);
+
+console.log(busqueda);
+
+
+
+
